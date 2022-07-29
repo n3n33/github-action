@@ -24,4 +24,7 @@ jobs:
       - name: Say Hello
         run: |
           python hello.py
+        env:
+          GIT_ACTION_SECRET: \$
+          
           
