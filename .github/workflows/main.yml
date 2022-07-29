@@ -24,7 +24,9 @@ jobs:
       - name: Say Hello
         run: |
           python hello.py
+      - name: Get Hadoop Relase Note Contents
+        run: |
+          python main.py
         env:
-          GIT_ACTION_SECRET: ${{ secrets.GIT_ACTION_SECRET}}
-          
+          GIT_ACTION_SECRET: ${{ secrets.GIT_ACTION_SECRET}}          
           
