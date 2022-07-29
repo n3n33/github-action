@@ -25,6 +25,6 @@ jobs:
         run: |
           python hello.py
         env:
-          GIT_ACTION_SECRET: \$
+          GIT_ACTION_SECRET: ${{ secrets.GIT_ACTION_SECRET}}
           
           
