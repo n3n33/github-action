@@ -1,6 +1,6 @@
 from github import Github
 
-def get_github_repo(acces_token, repository_name):
+def get_github_repo(acces_token, repo_name):
     g = Github(acces_token)
     repo = g.get_user().get_repo(repo_name)
     return repo
