@@ -1,5 +1,4 @@
 import os
-from pytz import timezone
 from datetime import datetime
 
 from get_releasenote import get_releasenote
