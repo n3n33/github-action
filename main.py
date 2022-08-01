@@ -11,7 +11,6 @@ if __name__ == "__main__":
     repository_name = "github-action"
 
     seoul_timezone = timezone('Asia/Seoul')
-    # seoul_timezone = datetime.today()
     today = datetime.now(seoul_timezone)
     today_date = today.strftime("%Y년 %m월 %d일")
 
