@@ -10,7 +10,8 @@ if __name__ == "__main__":
     access_token = os.environ['GIT_ACTION_SECRET']
     repository_name = "github-action"
 
-    seoul_timezone = timezone('Asial/Seoul')
+    # seoul_timezone = timezone('Asia/Seoul')
+    seoul_timezone = datetime.today()
     today = datetime.now(seoul_timezone)
     today_date = today.strftime("%Y년 %m월 %d일")
 
