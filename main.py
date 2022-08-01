@@ -17,10 +17,10 @@ if __name__ == "__main__":
 
     releaseurl = "https://hadoop.apache.org/docs/stable/"
     
-    contents = get_releasenote(releaseurl)
+    release_content = get_releasenote(releaseurl)
     
     issue_title = f"hadoop release note({today_date})"
-    upload_contents = contents
+    upload_contents = release_content
     repo = get_github_repo(access_token, repository_name)
     upload_github_issue(repo, issue_title, upload_contents)
     print("finish")
