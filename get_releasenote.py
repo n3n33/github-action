@@ -8,7 +8,7 @@ def get_releasenote(url):
     contents = " " 
 
     for index, element in enumerate(elements, 1):
-        content = "{} 번째 제목: {}".format(index, element.text)
+        content = "\n{} 번째 제목: {}".format(index, element.text)
         contents += content
     
     return contents
