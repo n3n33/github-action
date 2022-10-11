@@ -7,7 +7,7 @@ def get_releasenote(url):
     elements = soup.select('div.section')
     contents = " " 
 
-    for element in element:
+    for element in elements:
         content = element.text
         contents += content
     
