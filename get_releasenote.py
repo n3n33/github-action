@@ -12,7 +12,7 @@ def get_releasenote(url):
     #    contents += content
     for i in range(len(elements)):
         if i % 2 != 0:
-             content = "##" + elements[i].text
+             content = "## " + elements[i].text
              contents += content
         else:
             content = elements[i].text
