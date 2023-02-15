@@ -1,5 +1,5 @@
 # github action
-
+[![data_crawler](https://github.com/n3n33/github-action/actions/workflows/main.yml/badge.svg)](https://github.com/n3n33/github-action/actions/workflows/main.yml)
 ### workflows
 github workflow 안에 yaml 파일을 따라 workflow 생성함
 ```yaml
